@@ -1,0 +1,21 @@
+{
+  "name": "a2psgen",
+  "version": "1.0.0",
+  "homepage": "https://github.com/reillysiemens/a2psgen",
+  "authors": [
+    "Reilly Tucker Siemens <reilly.siemens@gmail.com>"
+  ],
+  "description": "Generate a2ps options so you don't have to read the man page.",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0"
+  }
+}
