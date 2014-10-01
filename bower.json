@@ -5,7 +5,7 @@
   "authors": [
     "Reilly Tucker Siemens <reilly.siemens@gmail.com>"
   ],
-  "description": "Generate a2ps options so you don't have to read the man page.",
+  "description": "Generating a2ps options so you don't have to read the man page.",
   "license": "MIT",
   "private": true,
   "ignore": [

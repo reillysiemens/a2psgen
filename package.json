@@ -1,7 +1,7 @@
 {
   "name": "a2psgen",
   "version": "1.0.0",
-  "description": "Generate a2ps options so you don't have to read the man page.",
+  "description": "Generating a2ps options so you don't have to read the man page.",
   "repository": {
     "type": "git",
     "url": "https://github.com/reillysiemens/a2psgen.git"
