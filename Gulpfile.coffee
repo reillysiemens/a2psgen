@@ -6,7 +6,7 @@ gulp.task 'compile', ->
   gulp.src 'src/**/*.coffee'
     .pipe lint()
     .pipe lint.reporter()
-    .pipe coffee()
+    .pipe coffee({ header: true })
     .pipe gulp.dest('lib')
 
 gulp.task 'watch', ->
