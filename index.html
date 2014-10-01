@@ -20,6 +20,90 @@
   <body>
     <div class='container'>
       <h1>a2psgen</h1>
+      <form role='form'>
+        <fieldset>
+          <legend>Primary Page Options</legend>
+          <div class='form-group'>
+            <label class='control-label' for='virtualpages'>Virtual Pages</label>
+            <label class='radio-inline' for='virtualpages-0'>
+              <input type='radio' name='virtualpages' id='virtualpages-0' value='1'> 1
+            </label>
+            <label class='radio-inline' for='virtualpages-1'>
+              <input type='radio' name='virtualpages' id='radios-1' value='2'> 2
+            </label>
+            <label class='radio-inline' for='virtualpages-2'>
+              <input type='radio' name='virtualpages' id='virtualpages-2' value='4'> 4
+            </label>
+            <label class='radio-inline' for='virtualpages-3'>
+              <input type='radio' name='virtualpages' id='virtualpages-3' value='8'> 8
+            </label>
+          </div>
+          <div class='form-group'>
+            <label class='control-label' for='pagerotation'>Page Rotation</label>
+            <label class='radio-inline' for='pagerotation-0'>
+              <input type='radio' name='pagerotation' id='pagerotation-0' value='portrait'> Portrait
+            </label>
+            <label class='radio-inline' for='pagerotation-1'>
+              <input type='radio' name='pagerotation' id='pagerotation-1' value='landscape'> Landscape
+            </label>
+          </div>
+          <div class='form-group'>
+            <label class='control-label'>Paper Size</label>
+            <select id='papersize' name='papersize' class='form-control' multiple>
+              <option value="10x14">10x14</option>
+              <option value="A3">A3</option>
+              <option value="A4">A4</option>
+              <option value="A5">A5</option>
+              <option value="B4">B4</option>
+              <option value="B5">B5</option>
+              <option value="Executive">Executive</option>
+              <option value="Folio">Folio</option>
+              <option value="Ledger">Ledger</option>
+              <option value="Legal">Legal</option>
+              <option selected value="Letter">Letter</option>
+              <option value="Quarto">Quarto</option>
+              <option value="Statement">Statement</option>
+              <option value="Tabloid">Tabloid</option>
+            </select>
+          </div>
+          <legend>Other Page Options</legend>
+          <div class='form-group'>
+            <label class='control-label'>Rows</label>
+            <input type='range' name='fontsize' min='1' max='10' value='1' step='1'>
+          </div>
+          <div class='form-group'>
+            <label class='control-label'>Columns</label>
+            <input type='range' name='fontsize' min='1' max='10' value='1' step='1'>
+          </div>
+          <div class='form-group'>
+            <label class='control-label' for='major'>Major</label>
+            <label class='radio-inline' for='major-0'>
+              <input type='radio' name='major' id='major-0' value='rows'> Rows
+            </label>
+            <label class='radio-inline' for='major-1'>
+              <input type='radio' name='major' id='major-1' value='columns'> Columns
+            </label>
+          </div>
+          <legend>Bonus Items</legend>
+          <div class='checkbox'>
+            <label>
+              <input type='checkbox'> Include line numbers
+            </label>
+          </div>
+          <div class='form-group'>
+            <label class='control-label'>Font Size</label>
+            <input type='range' name='fontsize' min='6' max='20' value='10' step='0.2'>
+          </div>
+          <div class='form-group'>
+            <label class='control-label'>Lines Per Page</label>
+            <input type='range' name='fontsize' min='10' max='100' value='10' step='1'>
+          </div>
+          <div class='form-group'>
+            <label class='control-label'>Columns Per Line</label>
+            <input type='range' name='fontsize' min='10' max='100' value='10' step='1'>
+          </div>
+        </fieldset>
+      </form>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
